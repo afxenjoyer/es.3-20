@@ -11,6 +11,10 @@ int main(void)
     {
         printf("L'anno da verificare è bisestile\n");
     }
+    else if(anno%100 == 0 && anno%400 == 0)
+    {
+        printf("L'anno da verificare è bisestile\n");
+    }
     else
     {
         printf("L'anno da verificare non è bisestile\n");
